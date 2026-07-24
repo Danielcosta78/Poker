@@ -35,6 +35,8 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build static export
+        env:
+          DEPLOY_TARGET: github-pages
         run: pnpm build
 
       # GitHub Pages defaults to Jekyll, which ignores folders starting with
