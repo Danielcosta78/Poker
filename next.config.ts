@@ -22,6 +22,10 @@ const nextConfig: NextConfig = {
   // Pure static export ("out/") — the app is fully client-side (local-first,
   // no server), so it deploys to Cloudflare Pages as plain files.
   output: 'export',
+  // GitHub Pages serves this project at /pip-poker/, not at the domain root,
+  // so every asset URL needs that prefix baked in at build time.
+  basePath: '/pip-poker',
+  assetPrefix: '/pip-poker/',
   env: {
     NEXT_PUBLIC_APP_VERSION: version,
     NEXT_PUBLIC_BUILD_ID: buildId,
