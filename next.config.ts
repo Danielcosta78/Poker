@@ -23,9 +23,13 @@ const nextConfig: NextConfig = {
   // no server), so it deploys to Cloudflare Pages as plain files.
   output: 'export',
   // GitHub Pages serves this project at /pip-poker/, not at the domain root,
-  // so every asset URL needs that prefix baked in at build time.
-  basePath: '/pip-poker',
-  assetPrefix: '/pip-poker/',
+  // so every asset URL needs that prefix baked in at build time. Vercel and
+  // Cloudflare Pages serve the project at the domain root, so the prefix is
+  // only applied when building inside GitHub Actions (which sets this env
+  // var automatically) — leave it unset everywhere else.
+  ...(process.env.GITHUB_ACTIONS === 'true'
+    ? { basePath: '/pip-poker', assetPrefix: '/pip-poker/' }
+    : {}),
   env: {
     NEXT_PUBLIC_APP_VERSION: version,
     NEXT_PUBLIC_BUILD_ID: buildId,
