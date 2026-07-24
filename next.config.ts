@@ -26,7 +26,7 @@ const nextConfig: NextConfig = {
   // so every asset URL needs that prefix baked in at build time. Vercel and
   // Cloudflare Pages serve the project at the domain root, so the prefix is
   // only applied when building inside GitHub Actions (which sets this env
-  // var automatically) — leave it unset everywhere else.
+  // var automatically) — leave it unset everywhere else
   ...(process.env.GITHUB_ACTIONS === 'true'
     ? { basePath: '/pip-poker', assetPrefix: '/pip-poker/' }
     : {}),
