@@ -33,6 +33,10 @@ const nextConfig: NextConfig = {
   env: {
     NEXT_PUBLIC_APP_VERSION: version,
     NEXT_PUBLIC_BUILD_ID: buildId,
+    // Mirrors the basePath above, but readable from client components (a
+    // plain `process.env.GITHUB_ACTIONS` check wouldn't be inlined for the
+    // browser bundle the way an `env` entry is). See src/lib/basePath.ts.
+    NEXT_PUBLIC_BASE_PATH: process.env.GITHUB_ACTIONS === 'true' ? '/pip-poker' : '',
   },
   // Pin the Turbopack root to this project so the pnpm-workspace.yaml
   // marker isn't mistaken for a monorepo root.

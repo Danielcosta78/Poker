@@ -7,6 +7,7 @@
 import { useState } from 'react'
 
 import { Skeleton } from '@/components/ui/skeleton'
+import { withBasePath } from '@/lib/basePath'
 import { cn } from '@/lib/utils'
 
 type Scene = (c: string) => React.ReactNode
@@ -292,7 +293,7 @@ export function VenueArt({
   accent: string
   className?: string
 }) {
-  const image = VENUE_IMAGES[id]
+  const image = VENUE_IMAGES[id] ? withBasePath(VENUE_IMAGES[id]) : undefined
   const ambience = AMBIENCE[id]
   const [status, setStatus] = useState<'loading' | 'loaded' | 'error'>('loading')
 

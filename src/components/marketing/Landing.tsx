@@ -32,6 +32,7 @@ import { CARD_BACKS } from '@/config/cardBacks'
 import { characterById, type Character } from '@/config/cast'
 import { useProfile } from '@/store/profile'
 import { useHydrated } from '@/lib/useHydrated'
+import { withBasePath } from '@/lib/basePath'
 import { useMoney } from '@/lib/useMoney'
 import { sound } from '@/lib/sound'
 import { cn } from '@/lib/utils'
@@ -229,14 +230,14 @@ function HeroTable() {
         {reducedMotion ? (
           // eslint-disable-next-line @next/next/no-img-element
           <img
-            src="/hero-poster.jpg"
+            src={withBasePath('/hero-poster.jpg')}
             alt="A hand at the Garage — a full house wins 136 at showdown"
             className="size-full object-cover"
           />
         ) : (
           <video
             className="size-full object-cover"
-            poster="/hero-poster.jpg"
+            poster={withBasePath('/hero-poster.jpg')}
             autoPlay
             muted
             loop
@@ -244,7 +245,7 @@ function HeroTable() {
             preload="auto"
             aria-label="Gameplay: a full house wins at showdown at the Garage"
           >
-            <source src="/hero.mp4" type="video/mp4" />
+            <source src={withBasePath('/hero.mp4')} type="video/mp4" />
           </video>
         )}
       </div>

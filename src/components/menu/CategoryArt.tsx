@@ -6,6 +6,7 @@
 // the Daily's spotlit card, the Rail's chip stack, the Venues ladder, the Side
 // Tables fan. No images, no ambience — these are small and want to stay calm.
 
+import { withBasePath } from '@/lib/basePath'
 import { cn } from '@/lib/utils'
 
 type Scene = (c: string) => React.ReactNode
@@ -215,7 +216,7 @@ export function CategoryArt({
   className?: string
 }) {
   const scene = SCENES[id] ?? SCENES.venues
-  const image = CATEGORY_IMAGES[id]
+  const image = CATEGORY_IMAGES[id] ? withBasePath(CATEGORY_IMAGES[id]) : undefined
   return (
     <div className={cn('relative overflow-hidden bg-[#0A0A0A]', className)}>
       {/* SVG fallback sits underneath; the image (if any) covers it. */}
