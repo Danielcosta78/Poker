@@ -3,8 +3,8 @@ import { A, LegalPage, Section } from '@/components/marketing/LegalPage'
 import contributors from '@/data/contributors.json'
 
 export const metadata: Metadata = {
-  title: 'Credits · Pip',
-  description: 'The people who build Pip. Open source, so the list writes itself.',
+  title: 'Credits · Stack Poker',
+  description: 'The people who build Stack Poker. Open source, so the list writes itself.',
 }
 
 type Contributor = { login: string; avatar: string; url: string; contributions: number }
@@ -22,9 +22,10 @@ export default function CreditsPage() {
     <LegalPage title="Credits">
       <Section title="Built by whoever shows up">
         <p>
-          Pip is open source, which means anyone can help build it — and these people have. This
-          list isn&rsquo;t hand-picked: it&rsquo;s generated from the project&rsquo;s history every
-          time the site is built. Land a change and your name shows up here on the next deploy.
+          Stack Poker is open source, which means anyone can help build it — and these people have.
+          This list isn&rsquo;t hand-picked: it&rsquo;s generated from the project&rsquo;s history
+          every time the site is built. Land a change and your name shows up here on the next
+          deploy.
         </p>
       </Section>
 
@@ -67,9 +68,11 @@ export default function CreditsPage() {
         <p>
           The way on is simple: open a pull request that lands. Not a coder? Playtesting, design
           notes, and good bug reports are real contributions too — start with{' '}
-          <A href="https://github.com/playpip/pip-web/blob/main/CONTRIBUTING.md">Contributing</A>,
-          or pick up a{' '}
-          <A href="https://github.com/playpip/pip-web/labels/good%20first%20issue">
+          <A href="https://github.com/Danielcosta78/pip-poker/blob/main/CONTRIBUTING.md">
+            Contributing
+          </A>
+          , or pick up a{' '}
+          <A href="https://github.com/Danielcosta78/pip-poker/labels/good%20first%20issue">
             good first issue
           </A>
           .

@@ -46,7 +46,7 @@ export function dailyShareText(
   hands: number,
 ): string {
   const finish = place === 1 ? 'won it' : place ? `${ordinal(place)} of ${seats}` : 'played'
-  return `pip daily #${dayNo} · ${finish} · ${hands} ${hands === 1 ? 'hand' : 'hands'} · playpip.io`
+  return `stack poker daily #${dayNo} · ${finish} · ${hands} ${hands === 1 ? 'hand' : 'hands'} · playpip.io`
 }
 
 export function ordinal(n: number): string {

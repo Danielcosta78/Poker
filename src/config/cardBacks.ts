@@ -36,7 +36,7 @@ export interface CardBackDesign {
 // and a beginner needs something cheap to want. Removed ids fall back to the
 // default. (Earlier cuts: graphite ≈ slate, sage ≈ ivy, rose, the old gold.)
 export const CARD_BACKS: readonly CardBackDesign[] = [
-  { id: 'pip', name: 'Pip', color: '#7E89D0', pattern: 'pips' },
+  { id: 'pip', name: 'Stack Poker', color: '#7E89D0', pattern: 'pips' },
   { id: 'ivy', name: 'Ivy', color: '#5F8A72', pattern: 'pinstripe' },
   { id: 'burgundy', name: 'Burgundy', color: '#82505A', pattern: 'diamonds' },
   { id: 'sand', name: 'Sand', color: '#C7B292', pattern: 'checker', ink: 'dark' },

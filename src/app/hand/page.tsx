@@ -1,7 +1,7 @@
 'use client'
 
 // A shared hand, replayed from the URL fragment alone — no server, no account.
-// Someone's bad beat (or hero call) arrives as a link and Pip plays it back like
+// Someone's bad beat (or hero call) arrives as a link and Stack Poker plays it back like
 // a highlight reel: the board deals in street by street, the action narrates
 // itself, and the outcome lands with a count-up. Every shared hand is the app's
 // best advert, so this page is built to convert a non-player — it autoplays,
@@ -331,7 +331,7 @@ function InvalidLink() {
           onClick={() => sound.play('tap')}
           className="mt-1 rounded-2xl bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground transition hover:bg-primary/90 active:scale-[0.98]"
         >
-          Play Pip — free, in your browser
+          Play Stack Poker — free, in your browser
         </Link>
       </div>
     </Shell>

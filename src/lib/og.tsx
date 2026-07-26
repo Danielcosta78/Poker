@@ -104,7 +104,7 @@ function OgCard({ eyebrow, lines, subtitle }: OgProps) {
             marginBottom: 30,
           }}
         >
-          pip
+          stack poker
         </div>
         <div
           style={{

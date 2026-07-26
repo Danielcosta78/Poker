@@ -69,7 +69,7 @@ function useCardBack() {
 
 /* ------------------------------- shared bits ------------------------------ */
 
-/** The Pip chip in currentColor — a pot that isn't a pile of casino clipart. */
+/** The Stack Poker chip in currentColor — a pot that isn't a pile of casino clipart. */
 function ChipGlyph({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 32 32" className={className} aria-hidden>

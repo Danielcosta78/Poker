@@ -26,7 +26,7 @@ export function Splash() {
   )
 }
 
-/** The Pip poker chip (matches the favicon at app/icon.svg). */
+/** The Stack Poker chip (matches the favicon at app/icon.svg). */
 function ChipMark({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 32 32" className={cn(className)} aria-label="Loading Stack Poker" role="img">

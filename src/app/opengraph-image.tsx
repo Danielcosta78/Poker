@@ -4,7 +4,7 @@ import { ogContentType, ogImage, ogSize } from '@/lib/og'
 // `twitter.images` automatically. Prerendered to a static PNG at build.
 // Prerender to a static PNG at build (required under `output: 'export'`).
 export const dynamic = 'force-static'
-export const alt = 'Pip — poker without the casino'
+export const alt = 'Stack Poker — poker without the casino'
 export const size = ogSize
 export const contentType = ogContentType
 

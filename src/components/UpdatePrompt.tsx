@@ -15,7 +15,7 @@ export function UpdatePrompt() {
   return (
     <div className="fixed inset-x-0 bottom-4 z-50 flex justify-center px-4">
       <div className="flex items-center gap-3 rounded-full bg-foreground px-4 py-2.5 text-background shadow-lg">
-        <span className="text-sm font-medium">A new version of Pip is ready.</span>
+        <span className="text-sm font-medium">A new version of Stack Poker is ready.</span>
         <button
           onClick={() => {
             sound.play('tap')

@@ -1,4 +1,4 @@
-// The cast — Pip's fixed troupe of opponents. Characters, not random names:
+// The cast — Stack Poker's fixed troupe of opponents. Characters, not random names:
 // each has a face (a fixed avatar spec), a one-line bio, a home range on the
 // ladder, and a small personality nudge over the venue's AI profile. The venue
 // sets the difficulty band (skill stays venue-owned — see docs/venues.md); the

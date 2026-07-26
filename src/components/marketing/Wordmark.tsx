@@ -16,7 +16,7 @@ export function Wordmark({ className }: { className?: string }) {
   )
 }
 
-/** The brand mark — the Pip poker chip (matches the favicon at src/app/icon.svg). */
+/** The brand mark — the Stack Poker chip (matches the favicon at src/app/icon.svg). */
 function ChipMark({ className }: { className?: string }) {
   return (
     <svg viewBox="0 0 32 32" className={className} aria-hidden>

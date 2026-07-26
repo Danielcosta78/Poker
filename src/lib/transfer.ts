@@ -5,7 +5,7 @@
 //             copy on one device and paste on another. Lossless.
 //   • QR    — a TRIMMED profile (identity + cosmetics, not the heavy history)
 //             encoded into a /game?p=<code> deep link. Scanning it with a phone
-//             camera opens Pip and offers the restore. Small enough to scan;
+//             camera opens Stack Poker and offers the restore. Small enough to scan;
 //             detailed stats/history don't come along.
 //
 // Both decode back through validateEnvelope, so a bad paste/scan is rejected
@@ -79,7 +79,7 @@ export async function decodeCode(code: string): Promise<ParsedBackup> {
     } else if (trimmed.startsWith(RAW_PREFIX)) {
       jsonBytes = fromBase64Url(trimmed.slice(RAW_PREFIX.length))
     } else {
-      return { ok: false, error: 'That doesn’t look like a Pip code.' }
+      return { ok: false, error: 'That doesn’t look like a Stack Poker code.' }
     }
     return validateEnvelope(JSON.parse(new TextDecoder().decode(jsonBytes)))
   } catch {

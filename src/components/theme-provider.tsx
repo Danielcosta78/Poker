@@ -1,6 +1,6 @@
 'use client'
 
-// Pip's own tiny theme system (light / dark / system, class-based, persisted).
+// Stack Poker's own tiny theme system (light / dark / system, class-based, persisted).
 // We used next-themes, but it injects its no-flash <script> from a client
 // component, which React 19 now flags in dev ("scripts inside components are
 // never executed…"). The split that avoids the warning entirely:

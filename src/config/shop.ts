@@ -150,7 +150,7 @@ export const SOUVENIRS: readonly ShopItem[] = [
   {
     id: 'souvenir-goldenpip',
     kind: 'souvenir',
-    name: 'The Golden Pip',
+    name: 'The Golden Stack Poker',
     blurb: 'It’s a pip. It’s gold. It does nothing at all.',
     price: 5_000_000,
     swatch: '#CDAA3D',

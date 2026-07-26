@@ -53,7 +53,7 @@ export function SettingsDialog({
             </a>
             {APP_VERSION && (
               <p className="text-center">
-                Pip v{APP_VERSION}
+                Stack Poker v{APP_VERSION}
                 {BUILD_ID ? ` · ${BUILD_ID}` : ''}
               </p>
             )}
@@ -275,7 +275,7 @@ function BackupSection() {
               <textarea
                 value={pasteText}
                 onChange={(e) => setPasteText(e.target.value)}
-                placeholder="Paste your Pip code here"
+                placeholder="Paste your Stack Poker code here"
                 rows={3}
                 className="w-full resize-none rounded-xl bg-foreground/[0.04] p-3 text-xs outline-none ring-primary/40 focus:ring-2"
               />

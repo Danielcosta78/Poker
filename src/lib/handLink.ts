@@ -2,7 +2,7 @@
 // can be shared with no server and no account: the hand IS the link. Decoding
 // is defensive (links arrive from the outside world); anything malformed
 // returns null rather than throwing. Fragment, not query: it never appears in
-// server logs even when Pip is hosted.
+// server logs even when Stack Poker is hosted.
 
 import type { HandEvent, HandRecord } from '@/store/game'
 import { cardFromString, cardToString, RANKS, SUITS, type Card } from '@/lib/poker/cards'

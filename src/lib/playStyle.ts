@@ -24,7 +24,7 @@ export interface PlayStyle {
   key: StyleKey
   /** Archetype name, e.g. "The Shark". */
   name: string
-  /** One-line description in Pip's voice. */
+  /** One-line description in Stack Poker's voice. */
   blurb: string
 }
 

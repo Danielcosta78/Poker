@@ -63,17 +63,20 @@ export type ParsedBackup =
   | { ok: false; error: string }
 
 /**
- * Validate an already-parsed value as a Pip backup. Applies nothing. Shared by
+ * Validate an already-parsed value as a Stack Poker backup. Applies nothing. Shared by
  * every restore path (file, pasted code, scanned QR) so validation lives once.
  */
 export function validateEnvelope(parsed: unknown): ParsedBackup {
   const env = parsed as Partial<BackupEnvelope>
   if (env?.app !== 'pip' || typeof env.profile !== 'object' || env.profile === null) {
-    return { ok: false, error: 'That doesn’t look like a Pip backup.' }
+    return { ok: false, error: 'That doesn’t look like a Stack Poker backup.' }
   }
   const { version, state } = env.profile as { version?: unknown; state?: unknown }
   if (typeof version !== 'number' || version > PERSIST_VERSION) {
-    return { ok: false, error: 'That backup is from a newer version of Pip — update first.' }
+    return {
+      ok: false,
+      error: 'That backup is from a newer version of Stack Poker — update first.',
+    }
   }
   if (typeof state !== 'object' || state === null) {
     return { ok: false, error: 'That backup is missing its profile data.' }

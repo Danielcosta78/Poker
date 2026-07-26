@@ -75,10 +75,10 @@ function Header() {
             Venues
           </a>
           <a
-            href="https://github.com/playpip/pip-web"
+            href="https://github.com/Danielcosta78/pip-poker"
             target="_blank"
             rel="noreferrer"
-            aria-label="Pip on GitHub"
+            aria-label="Stack Poker on GitHub"
             className="rounded-full p-2 text-muted-foreground transition hover:bg-foreground/5 hover:text-foreground"
           >
             <FaGithub className="size-4" />
@@ -453,10 +453,10 @@ function Features() {
               A cast you&rsquo;ll get to know
             </h3>
             <p className="mt-3 text-lg leading-relaxed text-muted-foreground text-pretty">
-              Pip seats a fixed troupe of regulars, not random bots. Each weighs Monte-Carlo equity
-              against pot odds through a personality of their own — they value-bet thin, float,
-              barrel, and lay hands down. And they remember you: your reads on them build across
-              sessions, like a real home game.
+              Stack Poker seats a fixed troupe of regulars, not random bots. Each weighs Monte-Carlo
+              equity against pot odds through a personality of their own — they value-bet thin,
+              float, barrel, and lay hands down. And they remember you: your reads on them build
+              across sessions, like a real home game.
             </p>
             <div className="mt-6 flex flex-wrap gap-2">
               {['Value-bets thin', 'Semi-bluffs', 'Sets traps', 'Career-long reads'].map((t) => (
@@ -633,7 +633,7 @@ function DailyShareMock() {
         {/* min-w-0: without it the nowrap line sets the card's min-content and
             the whole feature grid overflows the phone screen */}
         <span className="min-w-0 truncate font-mono text-sm text-muted-foreground">
-          pip daily #142 · 2nd of 5 · 34 hands
+          stack poker daily #142 · 2nd of 5 · 34 hands
         </span>
         <span className="shrink-0 rounded-lg bg-foreground/[0.06] px-2.5 py-1 text-xs font-medium">
           Copied
@@ -772,7 +772,7 @@ function Footer() {
             Credits
           </Link>
           <a
-            href="https://github.com/playpip/pip-web"
+            href="https://github.com/Danielcosta78/pip-poker"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-foreground"

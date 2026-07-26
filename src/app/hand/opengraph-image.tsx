@@ -5,7 +5,7 @@ import { ogContentType, ogImage, ogSize } from '@/lib/og'
 // per-hand image is impossible by design. The link still replays the real hand.
 // Prerender to a static PNG at build (required under `output: 'export'`).
 export const dynamic = 'force-static'
-export const alt = 'A poker hand shared on Pip'
+export const alt = 'A poker hand shared on Stack Poker'
 export const size = ogSize
 export const contentType = ogContentType
 
@@ -14,6 +14,6 @@ export default function Image() {
     eyebrow: 'A SHARED HAND',
     lines: ['Watch this', 'play out.'],
     subtitle:
-      'Someone shared a Pip hand — every card, every bet, replayed in your browser. No account needed.',
+      'Someone shared a Stack Poker hand — every card, every bet, replayed in your browser. No account needed.',
   })
 }

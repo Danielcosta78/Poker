@@ -5,7 +5,7 @@ import { Wordmark } from './Wordmark'
 /**
  * The frame for the legal pages (Privacy, Terms). A narrow, readable column with
  * the marketing chrome — same wordmark and footer language as the landing page,
- * so leaving the app for the fine print still feels like Pip. Written in the
+ * so leaving the app for the fine print still feels like Stack Poker. Written in the
  * house voice, not legalese; see docs/brand.md.
  */
 export function LegalPage({
@@ -21,7 +21,7 @@ export function LegalPage({
     <div className="flex min-h-dvh flex-col">
       <header className="sticky top-0 z-40 border-b border-foreground/5 bg-background/70 backdrop-blur-xl">
         <div className="mx-auto flex h-16 w-full max-w-2xl items-center justify-between px-6 md:px-8">
-          <Link href="/" aria-label="Pip home" className="transition hover:opacity-80">
+          <Link href="/" aria-label="Stack Poker home" className="transition hover:opacity-80">
             <Wordmark />
           </Link>
           <ThemeToggle />
@@ -49,7 +49,7 @@ export function LegalPage({
             Credits
           </Link>
           <a
-            href="https://github.com/playpip/pip-web"
+            href="https://github.com/Danielcosta78/pip-poker"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-foreground"

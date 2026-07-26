@@ -100,7 +100,7 @@ export function AppBar({
           {actions}
           {showWordmark && (
             <span className="mx-1 select-none text-xl font-semibold lowercase tracking-tight text-muted-foreground">
-              pip
+              stack poker
             </span>
           )}
           <button

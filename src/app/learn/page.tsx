@@ -6,7 +6,7 @@ import { Tutorial } from '@/components/learn/Tutorial'
 // after onboarding links here, and so can anyone else.
 
 export const metadata: Metadata = {
-  title: 'Learn poker in three minutes — Pip',
+  title: 'Learn poker in three minutes — Stack Poker',
   description: 'The basics of Texas Hold’em in eight short pages. No quiz, no signup.',
 }
 
