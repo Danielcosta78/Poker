@@ -11,7 +11,7 @@ export function Wordmark({ className }: { className?: string }) {
       )}
     >
       <ChipMark className="size-5" />
-      pip
+      stack poker
     </span>
   )
 }

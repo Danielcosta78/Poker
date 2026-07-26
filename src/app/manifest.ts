@@ -8,8 +8,8 @@ export const dynamic = 'force-static'
 // Safari's 7-day script-storage eviction, which protects the local profile.
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'pip',
-    short_name: 'pip',
+    name: 'Stack Poker',
+    short_name: 'Stack',
     description:
       'Casual poker, redesigned. Clean single-player Texas Hold’em — play money, no accounts.',
     // Installed app launches straight into the lobby, not the marketing page.

@@ -24,18 +24,18 @@ const UMAMI_SRC = process.env.NEXT_PUBLIC_UMAMI_SRC ?? 'https://cloud.umami.is/s
 export const metadata: Metadata = {
   // Required so static-export OG/Twitter image URLs resolve to absolute links.
   metadataBase: new URL('https://playpip.io'),
-  title: 'Pip — clean poker',
+  title: 'Stack Poker — clean poker',
   description: "Casual Texas Hold'em, redesigned. No fake felt, no neon.",
   appleWebApp: {
     capable: true,
-    title: 'pip',
+    title: 'Stack Poker',
     statusBarStyle: 'black-translucent',
   },
   // The og/twitter image comes from `app/opengraph-image.tsx` — Next wires it
   // into `openGraph.images` + `twitter.images` automatically.
   openGraph: {
     type: 'website',
-    siteName: 'Pip',
+    siteName: 'Stack Poker',
     url: 'https://playpip.io',
     title: 'Poker without the casino.',
     description:
