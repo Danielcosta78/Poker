@@ -68,11 +68,11 @@ export default function CreditsPage() {
         <p>
           The way on is simple: open a pull request that lands. Not a coder? Playtesting, design
           notes, and good bug reports are real contributions too — start with{' '}
-          <A href="https://github.com/Danielcosta78/pip-poker/blob/main/CONTRIBUTING.md">
+          <A href="https://github.com/Danielcosta78/stack-poker/blob/main/CONTRIBUTING.md">
             Contributing
           </A>
           , or pick up a{' '}
-          <A href="https://github.com/Danielcosta78/pip-poker/labels/good%20first%20issue">
+          <A href="https://github.com/Danielcosta78/stack-poker/labels/good%20first%20issue">
             good first issue
           </A>
           .

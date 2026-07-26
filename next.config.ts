@@ -28,7 +28,7 @@ const nextConfig: NextConfig = {
   // only applied when building inside GitHub Actions (which sets this env
   // var automatically) — leave it unset everywhere else
   ...(process.env.GITHUB_ACTIONS === 'true'
-    ? { basePath: '/pip-poker', assetPrefix: '/pip-poker/' }
+    ? { basePath: '/stack-poker', assetPrefix: '/stack-poker/' }
     : {}),
   env: {
     NEXT_PUBLIC_APP_VERSION: version,
@@ -36,7 +36,7 @@ const nextConfig: NextConfig = {
     // Mirrors the basePath above, but readable from client components (a
     // plain `process.env.GITHUB_ACTIONS` check wouldn't be inlined for the
     // browser bundle the way an `env` entry is). See src/lib/basePath.ts.
-    NEXT_PUBLIC_BASE_PATH: process.env.GITHUB_ACTIONS === 'true' ? '/pip-poker' : '',
+    NEXT_PUBLIC_BASE_PATH: process.env.GITHUB_ACTIONS === 'true' ? '/stack-poker' : '',
   },
   // Pin the Turbopack root to this project so the pnpm-workspace.yaml
   // marker isn't mistaken for a monorepo root.

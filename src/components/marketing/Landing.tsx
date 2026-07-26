@@ -76,7 +76,7 @@ function Header() {
             Venues
           </a>
           <a
-            href="https://github.com/Danielcosta78/pip-poker"
+            href="https://github.com/Danielcosta78/stack-poker"
             target="_blank"
             rel="noreferrer"
             aria-label="Stack Poker on GitHub"
@@ -773,7 +773,7 @@ function Footer() {
             Credits
           </Link>
           <a
-            href="https://github.com/Danielcosta78/pip-poker"
+            href="https://github.com/Danielcosta78/stack-poker"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-foreground"

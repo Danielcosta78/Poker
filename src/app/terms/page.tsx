@@ -46,8 +46,8 @@ export default function TermsPage() {
       <Section title="The code">
         <p>
           Stack Poker&rsquo;s source is public at{' '}
-          <A href="https://github.com/Danielcosta78/pip-poker">
-            github.com/Danielcosta78/pip-poker
+          <A href="https://github.com/Danielcosta78/stack-poker">
+            github.com/Danielcosta78/stack-poker
           </A>{' '}
           — read it, learn from it, check our claims. These terms cover the game as hosted at
           playpip.io; the code itself is released under the MIT licence in the repository.
@@ -69,8 +69,8 @@ export default function TermsPage() {
       <Section title="Contact">
         <p>
           Questions, or something not right? Open an issue at{' '}
-          <A href="https://github.com/Danielcosta78/pip-poker">
-            github.com/Danielcosta78/pip-poker
+          <A href="https://github.com/Danielcosta78/stack-poker">
+            github.com/Danielcosta78/stack-poker
           </A>
           .
         </p>

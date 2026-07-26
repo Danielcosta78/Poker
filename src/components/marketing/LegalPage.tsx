@@ -49,7 +49,7 @@ export function LegalPage({
             Credits
           </Link>
           <a
-            href="https://github.com/Danielcosta78/pip-poker"
+            href="https://github.com/Danielcosta78/stack-poker"
             target="_blank"
             rel="noreferrer"
             className="transition hover:text-foreground"
