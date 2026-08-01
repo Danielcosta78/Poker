@@ -754,6 +754,10 @@ function Footer() {
           <Link href="/terms" className="transition hover:text-foreground">
             Terms
           </Link>
+          </Link>
+          <Link href="/credits" className="transition hover:text-foreground">
+            Credits
+          </Link>
           <ThemeToggle />
         </div>
       </div>
