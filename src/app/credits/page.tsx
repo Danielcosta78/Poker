@@ -4,7 +4,7 @@ import contributors from '@/data/contributors.json'
 
 export const metadata: Metadata = {
   title: 'Credits · Stack Poker',
-  description: 'The Stack Poker.',
+  description: 'The people who build Stack Poker. Open source, so the list writes itself.',
 }
 
 type Contributor = { login: string; avatar: string; url: string; contributions: number }
@@ -14,7 +14,21 @@ export default function CreditsPage() {
 
   return (
     <LegalPage title="Credits">
+      <Section title="Built">
+        
+      </Section>
 
+      <section className="mt-9">
+        
+      </section>
+
+      <Section title="With thanks">
+        
+      </Section>
+
+      <Section title="Want to be on this list?">
+        
+      </Section>
     </LegalPage>
   )
 }
