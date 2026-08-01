@@ -11,8 +11,8 @@ export default function TermsPage() {
     <LegalPage title="Terms" updated="July 2026">
       <Section title="The short version">
         <p>
-          The plain-English rules for using Stack Poker at{' '}
-          <A href="https://playpip.io">playpip.io</A>. No surprises: Stack Poker is free, play
+          The plain-English rules for using Stack Poker
+          No surprises: Stack Poker is free, play
           money, and open source.
         </p>
       </Section>
@@ -43,17 +43,6 @@ export default function TermsPage() {
         </p>
       </Section>
 
-      <Section title="The code">
-        <p>
-          Stack Poker&rsquo;s source is public at{' '}
-          <A href="https://github.com/Danielcosta78/stack-poker">
-            github.com/Danielcosta78/stack-poker
-          </A>{' '}
-          — read it, learn from it, check our claims. These terms cover the game as hosted at
-          playpip.io; the code itself is released under the MIT licence in the repository.
-        </p>
-      </Section>
-
       <Section title="Age">
         <p>Stack Poker is intended for people 13 and over.</p>
       </Section>
@@ -66,15 +55,6 @@ export default function TermsPage() {
         </p>
       </Section>
 
-      <Section title="Contact">
-        <p>
-          Questions, or something not right? Open an issue at{' '}
-          <A href="https://github.com/Danielcosta78/stack-poker">
-            github.com/Danielcosta78/stack-poker
-          </A>
-          .
-        </p>
-      </Section>
     </LegalPage>
   )
 }
