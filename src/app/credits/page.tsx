@@ -4,7 +4,7 @@ import contributors from '@/data/contributors.json'
 
 export const metadata: Metadata = {
   title: 'Credits · Stack Poker',
-  description: 'The people who build Stack Poker. Open source, so the list writes itself.',
+  description: 'The Stack Poker.',
 }
 
 type Contributor = { login: string; avatar: string; url: string; contributions: number }
