@@ -100,16 +100,6 @@ export default function PrivacyPage() {
         </p>
       </Section>
 
-      <Section title="Don't take our word for it">
-        <p>
-          Stack Poker is open source. The whole app lives at{' '}
-          <A href="https://github.com/Danielcosta78/stack-poker">
-            github.com/Danielcosta78/stack-poker
-          </A>{' '}
-          — you can read exactly what it does and doesn&rsquo;t collect. Questions? Open an issue
-          there.
-        </p>
-      </Section>
     </LegalPage>
   )
 }
