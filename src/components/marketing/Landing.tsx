@@ -754,7 +754,6 @@ function Footer() {
           <Link href="/terms" className="transition hover:text-foreground">
             Terms
           </Link>
-          </Link>
           <Link href="/credits" className="transition hover:text-foreground">
             Credits
           </Link>
@@ -841,4 +840,4 @@ function SectionHeading({
       <p className="mt-4 text-lg leading-relaxed text-muted-foreground text-pretty">{body}</p>
     </motion.div>
   )
-}
+                }
