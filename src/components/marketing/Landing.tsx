@@ -75,15 +75,6 @@ function Header() {
           >
             Venues
           </a>
-          <a
-            href="https://github.com/Danielcosta78/stack-poker"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Stack Poker on GitHub"
-            className="rounded-full p-2 text-muted-foreground transition hover:bg-foreground/5 hover:text-foreground"
-          >
-            <FaGithub className="size-4" />
-          </a>
           <ThemeToggle />
           <PlayButton size="sm" className="ml-1" />
         </nav>
@@ -769,17 +760,6 @@ function Footer() {
           <Link href="/terms" className="transition hover:text-foreground">
             Terms
           </Link>
-          <Link href="/credits" className="transition hover:text-foreground">
-            Credits
-          </Link>
-          <a
-            href="https://github.com/Danielcosta78/stack-poker"
-            target="_blank"
-            rel="noreferrer"
-            className="transition hover:text-foreground"
-          >
-            GitHub
-          </a>
           <ThemeToggle />
         </div>
       </div>
