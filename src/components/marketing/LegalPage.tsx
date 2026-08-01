@@ -45,17 +45,6 @@ export function LegalPage({
           <Link href="/terms" className="transition hover:text-foreground">
             Terms
           </Link>
-          <Link href="/credits" className="transition hover:text-foreground">
-            Credits
-          </Link>
-          <a
-            href="https://github.com/Danielcosta78/stack-poker"
-            target="_blank"
-            rel="noreferrer"
-            className="transition hover:text-foreground"
-          >
-            GitHub
-          </a>
         </div>
       </footer>
     </div>
