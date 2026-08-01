@@ -654,7 +654,7 @@ function HandLinkMock() {
       <div className="flex items-center gap-2.5">
         <Link2 className="size-4 shrink-0 text-pip" />
         <span className="min-w-0 truncate font-mono text-sm text-muted-foreground">
-          playpip.io/hand#kQyJ3v…
+          playstackpoker.io/hand#kQyJ3v…
         </span>
       </div>
       <p className="mt-3 text-xs text-muted-foreground">
