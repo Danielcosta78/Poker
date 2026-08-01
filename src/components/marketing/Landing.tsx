@@ -1,5 +1,4 @@
 'use client'
-
 // The marketing landing page ("/"). The app itself lives at "/game". Built from
 // the real product primitives — VenueArt, CardBack, the cast — plus a recorded
 // hand for the hero, so nothing here is a mock-up: what you see on the page is
