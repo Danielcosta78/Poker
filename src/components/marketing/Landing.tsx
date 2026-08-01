@@ -21,7 +21,6 @@ import {
   Volume2,
   WifiOff,
 } from 'lucide-react'
-import { FaGithub } from 'react-icons/fa'
 import { CardBack } from '@/components/CardBack'
 import { PlayerAvatar } from '@/components/PlayerAvatar'
 import { ThemeToggle } from '@/components/ThemeToggle'
@@ -262,11 +261,6 @@ const TRUST: { icon: React.ComponentType<{ className?: string }>; title: string;
       icon: Sparkles,
       title: 'No dark patterns',
       body: 'No forced pop-ups, no pay-to-win, no nagging. Ever.',
-    },
-    {
-      icon: FaGithub,
-      title: 'Open source',
-      body: 'Every hand, shuffle, and line of the engine is public. Read it, fork it, self-host it.',
     },
   ]
 
@@ -645,7 +639,7 @@ function HandLinkMock() {
       <div className="flex items-center gap-2.5">
         <Link2 className="size-4 shrink-0 text-pip" />
         <span className="min-w-0 truncate font-mono text-sm text-muted-foreground">
-          playstackpoker.io/hand#kQyJ3v…
+          playpip.io/hand#kQyJ3v…
         </span>
       </div>
       <p className="mt-3 text-xs text-muted-foreground">
@@ -759,6 +753,9 @@ function Footer() {
           </Link>
           <Link href="/terms" className="transition hover:text-foreground">
             Terms
+          </Link>
+          <Link href="/credits" className="transition hover:text-foreground">
+            Credits
           </Link>
           <ThemeToggle />
         </div>
